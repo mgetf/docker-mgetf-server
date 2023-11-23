@@ -29,7 +29,7 @@ wget -nv "https://github.com/eldoradoel/sm-ripext-websocket/releases/download/2.
 unzip -o ripext.zip
 rm ripext.zip
 
-wget -nv "https://github.com/CaptainZidgel/mgeme_sm/archive/master.zip"
+wget -nv "https://github.com/mgetf/mgeme_sm/archive/master.zip"
 unzip -o master.zip
 rm mgeme_sm-master/README.md
 rm mgeme_sm-master/LICENSE
