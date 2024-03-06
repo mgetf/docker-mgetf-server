@@ -9,7 +9,7 @@ unzip -o crash.zip
 rm crash.zip
 
 # This is probably a stupid way to do this but add a thing to a file
-sed "159i \"MinidumpAccount\" \"76561198098770013\"" $SERVER/tf2/tf/addons/sourcemod/configs/core.cfg
+#sed "159i \"MinidumpAccount\" \"76561198098770013\"" $SERVER/tf2/tf/addons/sourcemod/configs/core.cfg
 
 # srctvplus
 cd -
@@ -40,10 +40,10 @@ cp mgeme_sm-master/* . -r
 rm master.zip
 
 cd -
-cd ./hlserver/tf2/tf/addons/sourcemod/scripting
+cd ./tf2/tf/addons/sourcemod/scripting
 ./compile.sh
 mv compiled/*.smx ../plugins
 
 cd -
-cd ./hlserver/tf2/tf/addons/sourcemod/plugins
+cd ./tf2/tf/addons/sourcemod/plugins
 chmod 0664 *.smx
